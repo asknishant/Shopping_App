@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/laptopimage"
+            android:layout_width="113dp"
+            android:layout_height="117dp"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/laptoptext"
+            android:layout_width="232dp"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="118dp"
+            android:layout_marginTop="2dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/addtocart"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="117dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="4dp"
+            android:text="Add to Cart"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/rating"
+            android:background="@drawable/roundedcorners"
+            android:textColor="@android:color/white"
+            android:layout_width="59dp"
+            android:layout_height="17dp"
+            android:layout_below="@+id/laptoptext"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/laptopimage"
+           />
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/price"
+            android:layout_width="115dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="127dp"
+            android:text="TextView" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
