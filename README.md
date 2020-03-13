@@ -1,2 +1,2 @@
 # Shopping_App
-This is a e-commerce app supported by android.
+This is an e-commerce app supported by android.
